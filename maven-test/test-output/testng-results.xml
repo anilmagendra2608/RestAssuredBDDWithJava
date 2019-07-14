@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-14T12:07:26Z" name="Default suite" finished-at="2019-07-14T12:07:34Z" duration-ms="7591">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunners.TestRunner_testAPI@23f7d05d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2019-07-14T12:07:26Z" name="Default test" finished-at="2019-07-14T12:07:34Z" duration-ms="7591">
+      <class name="testRunners.TestRunner_testAPI">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunners.TestRunner_testAPI@23f7d05d]" started-at="2019-07-14T12:07:26Z" name="setUpClass" finished-at="2019-07-14T12:07:27Z" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunners.TestRunner_testAPI@23f7d05d]" started-at="2019-07-14T12:07:27Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-14T12:07:28Z" duration-ms="1168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Google Homepage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunners.TestRunner_testAPI@23f7d05d]" started-at="2019-07-14T12:07:28Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-14T12:07:32Z" duration-ms="3672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test GET operation using RestAssured]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunners.TestRunner_testAPI@23f7d05d]" started-at="2019-07-14T12:07:32Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-14T12:07:34Z" duration-ms="2167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test POST operation using RestAssured]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner_testAPI@23f7d05d]" started-at="2019-07-14T12:07:34Z" name="tearDownClass" finished-at="2019-07-14T12:07:34Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.TestRunner_testAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
